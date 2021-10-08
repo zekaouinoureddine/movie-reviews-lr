@@ -1,7 +1,8 @@
-# Movie Review App - backend
+# Backend - FastAPI
+```
 .
 ├── assets 
-│   └── ???
+│   └── ...
 ├── data 
 │   └── IMDB Dataset.csv
 ├── models
@@ -10,8 +11,11 @@
 ├── notebooks
 │   ├── movie_reviews_tfidf_lr.ipynb
 ├── src
-│   ├── __init__.py
-│   ├── utils.py
+│   ├── utils
+│   │   ├── __init__.py 
+│   │   └── utils.py
+│   ├── __init__.py 
 │   └── main.py
 ├── Dockerfile
 └── requirements.txt
+```
