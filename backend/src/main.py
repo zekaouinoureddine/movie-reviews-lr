@@ -15,9 +15,9 @@ def get_review_sentiment(review, vectorizer, model):
     probability = model.predict_proba(review)
 
     return {
-        "Sentiment" : "Positive" if sentiment==1 else "Negative",
-        "Positive prediction" : probability[0][1],
-        "Negative prediction" : probability[0][0]
+        "sentiment" : "Positive" if sentiment==1 else "Negative",
+        "positive prediction" : probability[0][1],
+        "negative prediction" : probability[0][0]
         }
 
 
@@ -33,7 +33,7 @@ async def prediction(review:str):
         start = time.time()
         result = get_review_sentiment(review, Model.vectorizer, Model.model)
         duration = time.time() - start
-        result["Time"] = duration
+        result["time"] = duration
 
         return {
             "success": True,
