@@ -3,6 +3,7 @@ import pickle
 from .utils.utils import clean_data
 
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 
 class Model:
     vectorizer = pickle.load(open("./models/tfidfVectorizer.pickle", "rb"))
@@ -23,11 +24,23 @@ def get_review_sentiment(review, vectorizer, model):
 
 app = FastAPI(title="Deploying a ML Model with FastAPI")
 
+origins = [
+    "http://localhost:3000",
+    "localhost:3000"
+]
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"]
+)
+
 @app.get("/")
 def home():
     return "The API is working ..."
 
-@app.get("/predict")
+@app.get("/predict/")
 async def prediction(review:str):
     try:
         start = time.time()
