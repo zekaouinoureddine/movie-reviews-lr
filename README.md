@@ -1,25 +1,3 @@
 ![CI/CD](https://github.com/DamZiobro/serverless-fastapi/workflows/CI/CD/badge.svg)
 
-
-
-# Backend - FastAPI
-```
-.
-├── assets 
-│   └── ...
-├── data 
-│   └── IMDB Dataset.csv
-├── models
-│   ├── lrModel.pickle
-│   └── tfidfModel.pickle
-├── notebooks
-│   ├── movie_reviews_tfidf_lr.ipynb
-├── src
-│   ├── utils
-│   │   ├── __init__.py 
-│   │   └── utils.py
-│   ├── __init__.py 
-│   └── main.py
-├── Dockerfile
-└── requirements.txt
-```
+# Automate CI/CD pipelines with GitHub Actions
