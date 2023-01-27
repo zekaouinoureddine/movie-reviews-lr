@@ -1,5 +1,6 @@
+<<<<<<< HEAD
 name: CI/CD Tests
-
+s
 on:
   push:
     paths:
