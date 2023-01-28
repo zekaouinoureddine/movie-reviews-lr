@@ -5,7 +5,7 @@
 Deploy a Lachine Learning model using FastAPI and automate test pipelines with GitHub Actions.
 
 ## Tech Stack
-- [x] scikit-learn
+- [x] Scikit-learn
 - [x] FastAPI
 - [x] Docker
 
@@ -53,6 +53,29 @@ Before moving on, dont forget to bring down the container:
 ```
 $ docker stop mrlr
 ```
+
+## cURL
+cURL is a command-line tool for sending HTTP requests. It supports various protocols such as HTTP, HTTPS, FTP, and many more. It can be used to send and receive data from a server, and is often used for testing APIs and debugging network issues. cURL is available for most operating systems, including Windows, Mac, and Linux. Ensure that it is installed on your machine, then type:
+
+```c
+curl -X "GET" "http://127.0.0.1:8000/predict/?review=I like this amazing movie" -H "accept: application/json"
+```
+
+Output
+
+```JSON
+{
+  "success": true,
+  "result": {
+    "sentiment": "Positive",
+    "positive prediction": 0.6022566919053794,
+    "negative prediction": 0.39774330809462055,
+    "time": 0.01801776885986328
+  }
+}
+```
+
+Amazing jobe!
 
 ## Author Infos
 
