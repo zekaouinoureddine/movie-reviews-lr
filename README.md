@@ -2,7 +2,7 @@
 ![CI/CD](https://github.com/DamZiobro/serverless-fastapi/workflows/CI/CD/badge.svg)
 
 # Automate CI/CD pipelines with GitHub Actions
-Deploy a Lachine Learning model using FastAPI and automate test pipelines with GitHub Actions.
+Deploy a Machine Learning model using FastAPI and automate test pipelines with GitHub Actions.
 
 ## Tech Stack
 - [x] Scikit-learn
@@ -84,4 +84,4 @@ If you like it, give it a ⭐, then follow me on:
 - Twitter: [@NZekaoui](https://twitter.com/NZekaoui)
 
 ---
-[![](https://img.shields.io/badge/BACK%20TO-THE%20TOP-blue)](#automate-ci/cd-pipelines-with-github-actions)
+[![](https://img.shields.io/badge/BACK%20TO-THE%20TOP-blue)](#automate-cicd-pipelines-with-github-actions)
