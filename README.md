@@ -75,7 +75,7 @@ Output
 }
 ```
 
-Amazing jobe!
+Amazing job!
 
 ## Author Infos
 
