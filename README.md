@@ -5,8 +5,9 @@
 Deploy a Machine Learning model using FastAPI and automate test pipelines with GitHub Actions.
 
 ## Tech Stack
-- [x] Scikit-learn
+- [x] Scikit-Learn
 - [x] FastAPI
+- [x] pytest
 - [x] Docker
 
 ## Installation
@@ -20,7 +21,7 @@ Clone the repository, move to the project directory, then:
 ```
 $ git clone https://github.com/zekaouinoureddine/movie-reviews-lr.git
 $ cd movie-reviews-lr
-$ conda create --name bmenv python==3.10.9
+$ conda create --name mrenv python==3.10.9
 $ pip install -r requirements.txt
 $ uvicorn src.main:app --reload
 ```
