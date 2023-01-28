@@ -1,12 +1,11 @@
-![CI/CD](https://github.com/DamZiobro/serverless-fastapi/workflows/CI/CD/badge.svg)
 [![PyPI - License](https://img.shields.io/badge/license-MIT-green.svg)](/LICENSE)
+![CI/CD](https://github.com/DamZiobro/serverless-fastapi/workflows/CI/CD/badge.svg)
 
 # Automate CI/CD pipelines with GitHub Actions
-
+Deploy a Lachine Learning model using FastAPI and automate test pipelines with GitHub Actions.
 
 ## Tech Stack
-- [x] Hugging Face
-- [x] PyTorch
+- [x] scikit-learn
 - [x] FastAPI
 - [x] Docker
 
@@ -44,7 +43,7 @@ To ensure if the app is running, open you favorite browser then go to [127.0.0.1
 
 * ***Test it***
 
-Once you make sure your API is running on the local server or in the Docker container go to [127.0.0.1:8000/docs](http://127.0.0.1:8000/docs). Here you can test your API with some examples.
+Once you make sure your API is running on the local server or in the Docker container go to [127.0.0.1:8000/docs](http://127.0.0.1:8000/docs). Here, you can test your API using some examples.
 
 
 * ***Stop it***
