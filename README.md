@@ -58,7 +58,7 @@ $ docker stop mrlr
 cURL is a command-line tool for sending HTTP requests. It supports various protocols such as HTTP, HTTPS, FTP, and many more. It can be used to send and receive data from a server, and is often used for testing APIs and debugging network issues. cURL is available for most operating systems, including Windows, Mac, and Linux. Ensure that it is installed on your machine, then type:
 
 ```c
-curl -X "GET" "http://127.0.0.1:8000/predict/?review=I like this amazing movie" -H "accept: application/json"
+curl -X "GET" "http://127.0.0.1:8000/predict/?review=I%20like%20this%20amazing%20movie" -H "accept: application/json"
 ```
 
 Output
@@ -70,7 +70,7 @@ Output
     "sentiment": "Positive",
     "positive prediction": 0.6022566919053794,
     "negative prediction": 0.39774330809462055,
-    "time": 0.01801776885986328
+    "time": 0.020993947982788086
   }
 }
 ```
