@@ -1,5 +1,5 @@
 [![PyPI - License](https://img.shields.io/badge/license-MIT-green.svg)](/LICENSE)
-[![CI/CD](https://github.com/DamZiobro/serverless-fastapi/workflows/CI/CD/badge.svg)](./.github/workflows/cicd.yml)
+[![CI/CD](https://github.com/DamZiobro/serverless-fastapi/workflows/CI/CD/badge.svg)](https://github.com/zekaouinoureddine/movie-reviews-lr/actions/workflows/cicd.yml)
 
 # Automate CI/CD pipelines with GitHub Actions
 Deploy a Machine Learning model using FastAPI and automate test pipelines with GitHub Actions.
